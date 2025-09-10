@@ -102,7 +102,7 @@ const EDUCATION = [
   {
     school: "Dr. Shakuntala Misra National Rehabilitation University (DSMNRU), Lucknow",
     degree: "B.Tech (Computer Science & Engineering)",
-    year: "2022",
+    year: "2021",
     meta: "CGPA: 7.24",
   },
 ];
