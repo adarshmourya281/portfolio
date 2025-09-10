@@ -26,7 +26,7 @@ const PROFILE = {
   name: "Adarsh Mourya",
   role: "Java Backend Developer — Spring Boot, REST APIs, Microservices",
   summary:
-    "Backend engineer with 3.2+ years building secure, scalable web apps using Java, Spring Boot, REST APIs, Microservices, Spring Data JPA, and MySQL. Experienced across monoliths & microservices, CI/CD (Jenkins), code quality (SonarQube), and Agile delivery.",
+    "Backend engineer with 2.5+ years building secure, scalable web apps using Java, Spring Boot, REST APIs, Microservices, Spring Data JPA, and MySQL. Experienced across monoliths & microservices, CI/CD (Jenkins), code quality (SonarQube), and Agile delivery.",
   location: "Bengaluru, India",
   phone: "+91-9506454729",
   email: "adarshmourya2810@gmail.com",
@@ -57,17 +57,7 @@ const EXPERIENCE = [
 ];
 
 const PROJECTS = [
-  {
-    name: "Pizza Ordering Services",
-    period: "May 2024 — Present",
-    stack: ["Java", "Spring Boot", "Spring Security (JWT)", "REST API", "MySQL", "JUnit", "Mockito", "Swagger"],
-    highlights: [
-      "Customizable orders, inventory checks, and business rules (veg toppings, crust limits, free toppings).",
-      "Layered REST APIs with role-based access control (JWT).",
-      "80%+ unit test coverage; API docs with Swagger; shared Postman collection.",
-    ],
-    link: undefined,
-  },
+
   {
     name: "iTrack — Employee & Resource Management",
     period: "Enterprise Project",
@@ -75,18 +65,36 @@ const PROJECTS = [
     highlights: [
       "Tracks employee information, skills, and client project allocations.",
       "Modules: PF Account, Admin permissions, Project–Client allocation, Resource management.",
+      "Built secure RESTful APIs using Spring Boot, JPA, and MySQL with transaction management",
+      "Integrated Swagger for API documentation and Postman for API validation/testing",
     ],
     link: undefined,
   },
+
   {
-    name: "Hospital Management System",
+    name: "DineEase – Inventory Management System",
+    period: "May 2024 — Present",
+    stack: ["Java", "Spring Boot", "Spring Security (JWT)", "REST API", "MySQL", "JUnit", "Mockito", "Swagger"],
+    highlights: [
+      "Customizable food orders with real-time inventory validation and business rules",
+      "Layered REST APIs built with Spring Boot and secured using JWT-based role access",
+      "Designed normalized MySQL schemas for orders, menus, and inventory management",
+      "80%+ unit test coverage with JUnit & Mockito, API documentation via Swagger & Postman",
+    ],
+    link: undefined,
+  },
+  
+  {
+    name: "CurePath Management System",
     period: "May 2023 — June 2023",
     stack: ["Java", "Spring Boot", "Spring Data JPA", "Spring MVC", "Lombok", "JSP/JSTL", "JavaScript", "Bootstrap", "MySQL"],
     highlights: [
-      "Patient records, doctor appointments, COVID-19 tracking, admin operations.",
-      "Layered backend with MySQL; responsive JSP/JSTL UI; admin dashboards.",
+     " Built secure RESTful APIs with Spring Boot, JPA, and MySQL",
+     "Implemented role-based authentication and admin dashboards",
+     "Developed interactive UI using JSP, JSTL, JavaScript, and Bootstrap",
+     "Enabled patient records, doctor appointments, and COVID-19 case tracking",
     ],
-    link: "https://github.com/adarshmourya281/hospital_management_system.git",
+    link: "https://github.com/adarshmourya281/CurePath_Management_System.git",
   },
 ];
 
@@ -94,7 +102,7 @@ const EDUCATION = [
   {
     school: "Dr. Shakuntala Misra National Rehabilitation University (DSMNRU), Lucknow",
     degree: "B.Tech (Computer Science & Engineering)",
-    year: "2021",
+    year: "2022",
     meta: "CGPA: 7.24",
   },
 ];
@@ -145,7 +153,7 @@ export default function Portfolio() {
             <p className="mt-2 text-lg md:text-xl text-slate-600">{PROFILE.role}</p>
             <p className="mt-4 text-slate-700 leading-relaxed">{PROFILE.summary}</p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
-              <Badge variant="secondary" className="px-3 py-1"><ShieldCheck className="h-4 w-4 mr-1"/>3.2+ yrs experience</Badge>
+              <Badge variant="secondary" className="px-3 py-1"><ShieldCheck className="h-4 w-4 mr-1"/>2.5+ yrs experience</Badge>
               <Badge variant="secondary" className="px-3 py-1"><TerminalSquare className="h-4 w-4 mr-1"/>Java • Spring Boot • MySQL</Badge>
               <Badge variant="secondary" className="px-3 py-1"><Briefcase className="h-4 w-4 mr-1"/>Open to Remote</Badge>
             </div>
