@@ -32,7 +32,7 @@ const PROFILE = {
   email: "adarshmourya2810@gmail.com",
   github: "https://github.com/adarshmourya281",
   linkedin: "https://www.linkedin.com/", // add your LinkedIn profile URL
-  resumeUrl: "https://drive.google.com/file/d/1hxWd4m5TQ_yS71CmOR0tDsXFWip_0lVf/view?usp=sharing", // place resume.pdf inside public/
+  resumeUrl: "https://drivesp=sharing", // place resume.pdf inside public/
   photo: "/profile.jpeg", // place profile.jpg inside public/
 };
 
