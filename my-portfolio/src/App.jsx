@@ -47,7 +47,7 @@ const EXPERIENCE = [
   {
     company: "Applitech Solution Pvt. Ltd.",
     title: "Software Engineer (Java Backend)",
-    period: "2021 — Present",
+    period: "2022 — Present",
     bullets: [
       "Developed and maintained Spring Boot microservices and REST APIs with MySQL/Oracle.",
       "Implemented CI/CD using Jenkins; improved code quality via SonarQube reviews.",
@@ -102,7 +102,7 @@ const EDUCATION = [
   {
     school: "Dr. Shakuntala Misra National Rehabilitation University (DSMNRU), Lucknow",
     degree: "B.Tech (Computer Science & Engineering)",
-    year: "2021",
+    year: "2022",
     meta: "CGPA: 7.24",
   },
 ];
