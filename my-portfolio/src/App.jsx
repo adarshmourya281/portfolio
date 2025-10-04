@@ -89,7 +89,7 @@ const PROJECTS = [
   
   {
     name: "CurePath Management System",
-    period: "March 2022 — Auguest 2022",
+    period: "March 2022 — August 2022",
     stack: ["Java", "Spring Boot", "Spring Data JPA", "Spring MVC", "Lombok", "JSP/JSTL", "JavaScript", "Bootstrap", "MySQL"],
     highlights: [
      " Built secure RESTful APIs with Spring Boot, JPA, and MySQL",
