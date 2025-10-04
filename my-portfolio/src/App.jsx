@@ -26,32 +26,34 @@ const PROFILE = {
   name: "Adarsh Mourya",
   role: "Java Backend Developer — Spring Boot, REST APIs, Microservices",
   summary:
-    "Backend engineer with 2.5+ years building secure, scalable web apps using Java, Spring Boot, REST APIs, Microservices, Spring Data JPA, and MySQL. Experienced across monoliths & microservices, CI/CD (Jenkins), code quality (SonarQube), and Agile delivery.",
-  location: "Bengaluru, India",
+    "Backend engineer with 3+ years building secure, scalable web apps using Java, Spring Boot, REST APIs, Microservices, Spring Data JPA, and MySQL. Experienced across monoliths & microservices, CI/CD (Jenkins), code quality (SonarQube), and Agile delivery.",
+  location: "Pune, India",
   phone: "+91-9506454729",
   email: "adarshmourya2810@gmail.com",
   github: "https://github.com/adarshmourya281",
   linkedin: "https://www.linkedin.com/", // add your LinkedIn profile URL
-  resumeUrl: "https://drive.google.com/file/d/1JYy-yaUIl_hAjOaLrO7FvbFG6vEuW4d4/view?usp=sharing", // place resume.pdf inside public/
+  resumeUrl: "https://drive.google.com/file/d/1S61zl69cZ9__xWqW7-jZG_PzmVsxZCwx/view?usp=sharing", // place resume.pdf inside public/
   photo: "/profile.jpeg", // place profile.jpg inside public/
 };
 
 const SKILLS = [
-  "Java 8", "OOP", "Collections", "Multithreading", "Spring Boot", "Spring MVC",
+  "Java ", "OOP", "Collections", "Multithreading", "Spring Boot", "Spring MVC",
   "RESTful APIs", "Microservices", "Spring Security (JWT)", "Hibernate/JPA", "MySQL",
-  "Oracle", "Maven", "Git", "JIRA (Agile)", "Jenkins CI/CD", "SonarQube", "JUnit/Mockito",
+  "Oracle", "Maven","Kafka", "Git", "JIRA (Agile)", "Jenkins CI/CD", "SonarQube", "JUnit/Mockito",
   "Swagger/OpenAPI", "Postman", "Lombok", "Apache Tomcat"
 ];
 
 const EXPERIENCE = [
   {
     company: "Applitech Solution Pvt. Ltd.",
-    title: "Software Engineer (Java Backend)",
-    period: "2022 — Present",
+    title: "Software Engineer",
+    period: "September 2022 — Present",
     bullets: [
-      "Developed and maintained Spring Boot microservices and REST APIs with MySQL/Oracle.",
-      "Implemented CI/CD using Jenkins; improved code quality via SonarQube reviews.",
-      "Collaborated in Agile teams using JIRA for sprint planning and tracking.",
+      "Architected, implemented, and maintained robust Java microservices and RESTful APIs with Spring Boot, JPA, Hibernate, and Oracle, ensuring reliable and high-performance operations",
+      "Enforced secure authentication and authorization using JWT, Spring Security, and OAuth2.",
+      "Actively contributed in Agile/Scrum teams, attending daily stand-ups, sprint planning, and retrospectives.",
+      "Developed and optimized RESTful APIs in Spring Boot, boosting order processing efficiency by 35%.",
+      "Streamlined API endpoints, eliminated obsolete calls, and managed source code with Git.",
     ],
   },
 ];
@@ -59,13 +61,14 @@ const EXPERIENCE = [
 const PROJECTS = [
 
   {
-    name: "iTrack — Employee & Resource Management",
+    name: "MioMap — E-commerce Platform Development",
     period: "Enterprise Project",
-    stack: ["Java", "Spring Boot", "REST", "Spring Data JPA", "MySQL"],
+    stack: ["Java, Spring Boot, Hibernate,Thymeleaf, MySQL"],
     highlights: [
-      "Tracks employee information, skills, and client project allocations.",
-      "Modules: PF Account, Admin permissions, Project–Client allocation, Resource management.",
-      "Built secure RESTful APIs using Spring Boot, JPA, and MySQL with transaction management",
+      "Built a scalable backend architecture using Spring Boot and Hibernate with modular service layers.",
+      "Integrated backend services with JSF & PrimeFaces to support dynamic, interactive UI components.",
+      "Optimized database performance through query optimization, indexing, and reusable components",
+      "Secured the platform with Spring Security, enabling role-based access for admins, vendors, and customers.",
       "Integrated Swagger for API documentation and Postman for API validation/testing",
     ],
     link: undefined,
@@ -73,7 +76,7 @@ const PROJECTS = [
 
   {
     name: "DineEase – Inventory Management System",
-    period: "May 2024 — Present",
+    period: "September 2022 — March 2023",
     stack: ["Java", "Spring Boot", "Spring Security (JWT)", "REST API", "MySQL", "JUnit", "Mockito", "Swagger"],
     highlights: [
       "Customizable food orders with real-time inventory validation and business rules",
@@ -86,7 +89,7 @@ const PROJECTS = [
   
   {
     name: "CurePath Management System",
-    period: "May 2023 — June 2023",
+    period: "March 2022 — Auguest 2022",
     stack: ["Java", "Spring Boot", "Spring Data JPA", "Spring MVC", "Lombok", "JSP/JSTL", "JavaScript", "Bootstrap", "MySQL"],
     highlights: [
      " Built secure RESTful APIs with Spring Boot, JPA, and MySQL",
@@ -94,7 +97,7 @@ const PROJECTS = [
      "Developed interactive UI using JSP, JSTL, JavaScript, and Bootstrap",
      "Enabled patient records, doctor appointments, and COVID-19 case tracking",
     ],
-    link: "https://github.com/adarshmourya281/CurePath_Management_System.git",
+    link: undefined,
   },
 ];
 
@@ -102,7 +105,7 @@ const EDUCATION = [
   {
     school: "Dr. Shakuntala Misra National Rehabilitation University (DSMNRU), Lucknow",
     degree: "B.Tech (Computer Science & Engineering)",
-    year: "2022",
+    year: "2021",
     meta: "CGPA: 7.24",
   },
 ];
@@ -153,7 +156,7 @@ export default function Portfolio() {
             <p className="mt-2 text-lg md:text-xl text-slate-600">{PROFILE.role}</p>
             <p className="mt-4 text-slate-700 leading-relaxed">{PROFILE.summary}</p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
-              <Badge variant="secondary" className="px-3 py-1"><ShieldCheck className="h-4 w-4 mr-1"/>2.5+ yrs experience</Badge>
+              <Badge variant="secondary" className="px-3 py-1"><ShieldCheck className="h-4 w-4 mr-1"/>3+ yrs experience</Badge>
               <Badge variant="secondary" className="px-3 py-1"><TerminalSquare className="h-4 w-4 mr-1"/>Java • Spring Boot • MySQL</Badge>
               <Badge variant="secondary" className="px-3 py-1"><Briefcase className="h-4 w-4 mr-1"/>Open to Remote</Badge>
             </div>
@@ -345,3 +348,4 @@ function SimpleContactForm() {
     </form>
   );
 }
+
