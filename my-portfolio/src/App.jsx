@@ -27,12 +27,12 @@ const PROFILE = {
   role: "Java Backend Developer — Spring Boot, REST APIs, Microservices",
   summary:
     "Backend engineer with 3+ years building secure, scalable web apps using Java, Spring Boot, REST APIs, Microservices, Spring Data JPA, and MySQL. Experienced across monoliths & microservices, CI/CD (Jenkins), code quality (SonarQube), and Agile delivery.",
-  location: "Pune, India",
+  location: "Bengaluru, India",
   phone: "+91-9506454729",
   email: "adarshmourya2810@gmail.com",
   github: "https://github.com/adarshmourya281",
   linkedin: "https://www.linkedin.com/", // add your LinkedIn profile URL
-  resumeUrl: "https://drive.google.com/file/d/1S61zl69cZ9__xWqW7-jZG_PzmVsxZCwx/view?usp=sharing", // place resume.pdf inside public/
+  resumeUrl: "https://drive.google.com/file/d/1GjbVNH8fAOESq_nvswD0uZn747m2r5nl/view?usp=sharing", // place resume.pdf inside public/
   photo: "/profile.jpeg", // place profile.jpg inside public/
 };
 
@@ -47,7 +47,7 @@ const EXPERIENCE = [
   {
     company: "Applitech Solution Pvt. Ltd.",
     title: "Software Engineer",
-    period: "September 2022 — Present",
+    period: "October 2022 — Present",
     bullets: [
       "Architected, implemented, and maintained robust Java microservices and RESTful APIs with Spring Boot, JPA, Hibernate, and Oracle, ensuring reliable and high-performance operations",
       "Enforced secure authentication and authorization using JWT, Spring Security, and OAuth2.",
@@ -76,7 +76,7 @@ const PROJECTS = [
 
   {
     name: "DineEase – Inventory Management System",
-    period: "September 2022 — March 2023",
+    period: "October 2022 — April 2023",
     stack: ["Java", "Spring Boot", "Spring Security (JWT)", "REST API", "MySQL", "JUnit", "Mockito", "Swagger"],
     highlights: [
       "Customizable food orders with real-time inventory validation and business rules",
@@ -89,7 +89,7 @@ const PROJECTS = [
   
   {
     name: "CurePath Management System",
-    period: "March 2022 — August 2022",
+    period: "March 2022 — Septembem 2022",
     stack: ["Java", "Spring Boot", "Spring Data JPA", "Spring MVC", "Lombok", "JSP/JSTL", "JavaScript", "Bootstrap", "MySQL"],
     highlights: [
      " Built secure RESTful APIs with Spring Boot, JPA, and MySQL",
